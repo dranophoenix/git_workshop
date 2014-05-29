@@ -8,5 +8,5 @@ urlpatterns = patterns('',
     # url(r'^$', 'git_workshop.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admine/', include(admin.site.urls)),
 )
